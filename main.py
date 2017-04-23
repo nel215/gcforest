@@ -1,6 +1,6 @@
 # coding:utf-8
 from sklearn.datasets import load_digits
-from gc_forest import GCForest
+from gcforest import GCForest
 
 X, y = load_digits(return_X_y=True)
 n = X.shape[0]
